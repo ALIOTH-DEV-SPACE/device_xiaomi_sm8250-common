@@ -56,23 +56,11 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
-# IOP
-vendor.iop.enable_prefetch_ofr=1
-vendor.iop.enable_uxe=0
-
-# Memory optimizations
-ro.vendor.qti.sys.fw.bservice_enable=true
-
 #Netflix custom property
 ro.netflix.bsp_rev=Q8250-19134-1
 
 #NTP Server
 persist.backup.ntpServer="0.pool.ntp.org"
-
-# Perf
-ro.vendor.qti.core_ctl_max_cpu=4
-ro.vendor.qti.core_ctl_min_cpu=2
-vendor.display.enable_async_powermode
 
 # Netmgr
 persist.vendor.data.iwlan.enable=true
@@ -80,7 +68,6 @@ persist.vendor.data.mode=concurrent
 
 #RIL
 # Set network mode to (T/L/G/W/1X/EVDO, T/L/G/W/1X/EVDO) for 7+7 mode device on DSDS mode
-
 
 #RmNet Data
 persist.rmnet.data.enable=true
