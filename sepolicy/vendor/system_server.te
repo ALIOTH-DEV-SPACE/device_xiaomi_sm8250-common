@@ -7,3 +7,6 @@ allow system_server sysfs_hctosys : file {getattr open read};
 #smart charger
 r_dir_file(system_server, sysfs_battery_supply)
 allow system_server sysfs_battery_supply:file { getattr open read write };
+
+# Allow system_server to read Fast Charging status
+allow system_server vendor_sysfs_battery_supply:file { getattr open read };
