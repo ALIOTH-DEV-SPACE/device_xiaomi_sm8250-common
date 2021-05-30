@@ -47,7 +47,7 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_PATH_vendor=bin/checkpoint_gc \
     FILESYSTEM_TYPE_vendor=ext4 \
     POSTINSTALL_OPTIONAL_vendor=true
-    
+
 PRODUCT_PACKAGES += \
   update_engine \
   update_engine_client \
@@ -57,7 +57,19 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+
 endif
+
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-impl-qti.recovery \
+    android.hardware.boot@1.1-service
+    
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
+    
+PRODUCT_HOST_PACKAGES += \
+    brillo_update_payload
 
 # ANT+
 PRODUCT_PACKAGES += \
