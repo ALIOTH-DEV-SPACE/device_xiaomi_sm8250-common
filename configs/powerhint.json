@@ -169,8 +169,8 @@
       "Name": "TASchedtuneBoost",
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
-        "10",
-        "5"
+        "30",
+        "10"
       ],
       "ResetOnInit": true
     },
@@ -230,25 +230,6 @@
       "ResetOnInit": true
     },
     {
-      "Name": "CPUBWUseAb",
-      "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/use_ab",
-      "Values": [
-        "0",
-        "1"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "CPUBWMinFreq",
-      "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/min_freq",
-      "Values": [
-        "15258",
-        "9155",
-        "2288"
-      ],
-      "ResetOnInit": true
-    },
-    {
       "Name": "LLCCBWMinFreq",
       "Path": "/sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/min_freq",
       "Values": [
@@ -274,15 +255,6 @@
       "Values": [
         "0",
         "10"
-      ],
-      "ResetOnInit": true
-    },
-    {
-      "Name": "LLCCBWUseAb",
-      "Path": "/sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/use_ab",
-      "Values": [
-        "0",
-        "1"
       ],
       "ResetOnInit": true
     },
@@ -410,21 +382,9 @@
     },
     {
       "PowerHint": "INTERACTION",
-      "Node": "TA_uClampBoost",
-      "Duration": 0,
-      "Value": "30"
-    },
-    {
-      "PowerHint": "INTERACTION",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 0,
-      "Value": "1344000"
-    },
-    {
-      "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "10"
+      "Value": "30"
     },
     {
       "PowerHint": "INTERACTION",
@@ -514,7 +474,7 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
       "Duration": 5000,
-      "Value": "15258"
+      "Value": "14236"
     },
     {
       "PowerHint": "LAUNCH",
@@ -538,7 +498,7 @@
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
       "Duration": 5000,
-      "Value": "7980"
+      "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
