@@ -407,8 +407,8 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator.service
-    
+    vendor.qti.hardware.vibrator.service.xiaomi_kona
+
 #VNDK
 PRODUCT_PACKAGES += \
     libgui_vendor \
