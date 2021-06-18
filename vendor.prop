@@ -187,6 +187,7 @@ DEVICE_PROVISIONED=1
 ro.telephony.default_cdma_sub=0
 persist.vendor.radio.enable_temp_dds=true
 persist.vendor.radio.dynamic_sar=1
+persist.vendor.radio.add_power_save=1
 
 #Sensors
 persist.vendor.sensors.allow_non_default_discovery=true 
