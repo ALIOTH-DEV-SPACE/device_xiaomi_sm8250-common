@@ -398,7 +398,7 @@
     </string-array>
 
     <!-- The name of the package that will hold the dialer role by default. -->
-    <string name="config_defaultDialer">com.google.android.dialer</string>
+    <string name="config_defaultDialer">com.android.dialer</string>
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
