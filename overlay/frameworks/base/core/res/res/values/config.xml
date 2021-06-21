@@ -166,8 +166,10 @@
     <bool name="config_dozeAfterScreenOffDefault">true</bool>
     
     <!-- Default value for proximity check on screen wake
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-    <bool name="config_proximityCheckOnWake">false</bool>
+     NOTE ! - Enable for devices that have a fast response proximity/light sensor (ideally < 300ms)-->
+    <bool name="config_proximityCheckOnWake">true</bool>
+    <integer name="config_proximityCheckTimeout">3000</integer>
+    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
     
     
         <!-- Integer parameters of the wifi to cellular handover feature
