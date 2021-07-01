@@ -1,1 +1,0 @@
-allow devicesettings_app hal_displayfeature_hwservice:hwservice_manager find;
