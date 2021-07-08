@@ -135,9 +135,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/excluded-input-devices.xml:system/etc/excluded-input-devices.xml \
 
-# fastbootd
+# Fastbootd
 PRODUCT_PACKAGES += \
-    fastbootd
+    fastbootd \
+    android.hardware.fastboot@1.0-impl-mock
 	
 # Freeform Multiwindow
 PRODUCT_COPY_FILES += \
