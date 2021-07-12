@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
     
+# Device Personalization Services
+PRODUCT_PACKAGES += \
+    MatchmakerPrebuilt
+
 #Display
 $(call inherit-product, $(LOCAL_PATH)/kona/display/display.mk)
     
