@@ -375,4 +375,7 @@
          See android.attention.AttentionManagerService.
     -->
     <string name="config_defaultAttentionService" translatable="false">com.google.android.as/com.google.android.apps.miphone.aiai.attention.service.AiAiAttentionService</string>
+
+    <!-- Whether device supports livedisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
 </resources>
